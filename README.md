@@ -94,22 +94,23 @@ Execute the following scripts in sequence:
 ```bash
 python alignment.py
 ```
-Performs sub-pixel registration between T1 and T2 views using cross-correlation optimization.
+aligns T2 (and its absorption volume) to T1 by extracting a centered ROI, performing translation + affine registration with Elastix, propagating the transform to the full volumes, and saving both the aligned stacks and registration parameters
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/carlosalbertoch/Dual-View-TDM/main/assets/alignment.jpg" alt="Alignment Process" width="600"/>
 </div>
+
 ### 2) Volume Fusion
 ```bash
 python fusion.py
 ```
-Merges aligned stacks using frequency-domain analysis and gradient-based weighting.
+Merges aligned stacks 
 
 ### 3) Index Offset Correction
 ```bash
 python offset_index.py
 ```
-Applies refractive index calibration and background normalization.
+Applies refractive index calibration 
 
 ### 4) Background Processing
 ```bash
@@ -121,7 +122,7 @@ Generates adaptive masks and removes reconstruction artifacts.
 ```bash
 python mesh_voxels.py
 ```
-Creates watertight meshes using marching cubes algorithm with topology optimization.
+Creates meshes using marching cubes algorithm with topology optimization.
 
 ---
 
