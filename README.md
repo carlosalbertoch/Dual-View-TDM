@@ -6,6 +6,9 @@
 
 This repository contains the complete computational pipeline for **Dual-View Tomographic Diffraction Microscopy**, providing an end-to-end solution for 3D microscopic reconstruction and visualization.
 
+<div align="center">
+  <img src="https://github.com/carlosalbertoch/Dual-View-TDM/issues/setup.pdf" alt="Pipeline Setup" width="600"/>
+</div>
 ---
 
 ## Overview
@@ -16,9 +19,7 @@ The pipeline implements a comprehensive workflow to:
 • **Segment and fuse** volumetric data plane-by-plane using frequency/gradient analysis  
 • **Convert** fused volumes into 3D meshes (GLB/FBX formats)  
 
-<div align="center">
-  <img src="https://github.com/yourusername/your-repo/issues/1#issuecomment-setup" alt="Pipeline Setup" width="600"/>
-</div>
+
 
 ---
 
@@ -96,7 +97,7 @@ python alignment.py
 Performs sub-pixel registration between T1 and T2 views using cross-correlation optimization.
 
 <div align="center">
-  <img src="https://github.com/yourusername/your-repo/issues/2#issuecomment-alignment" alt="Alignment Process" width="500"/>
+  <img src="https://github.com/carlosalbertoch/Dual-View-TDM/issues/alignment.jpg" alt="Alignment Process" width="500"/>
 </div>
 
 ### 2) Volume Fusion
