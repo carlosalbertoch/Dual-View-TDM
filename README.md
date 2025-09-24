@@ -12,9 +12,9 @@ This repository contains the complete computational pipeline for **Dual-View Tom
 
 The pipeline implements a comprehensive workflow to:
 
-• **Align** two opposing 3D microscopy stacks with sub-pixel precision  
-• **Segment and fuse** volumetric data plane-by-plane using advanced frequency/gradient analysis  
-• **Convert** fused volumes into high-quality watertight 3D meshes (GLB/FBX formats)  
+• **Align** two opposing 3D microscopy stacks 
+• **Segment and fuse** volumetric data plane-by-plane using frequency/gradient analysis  
+• **Convert** fused volumes into 3D meshes (GLB/FBX formats)  
 
 <div align="center">
   <img src="https://github.com/yourusername/your-repo/issues/1#issuecomment-setup" alt="Pipeline Setup" width="600"/>
@@ -54,9 +54,9 @@ Download the required **TIFF stacks** from our data portal:
 **📂 [Dataset Portal](https://www.your-dataset-portal.org)**
 
 Required files:
-- `diatom_T1_indice.tif` - T1 complex refractive index reconstruction  
+- `diatom_T1_indice.tif` - T1 refractive index reconstruction  
 - `diatom_T1_Absorption.tif` - T1 absorption reconstruction  
-- `diatom_T2_indice.tif` - T2 complex refractive index reconstruction  
+- `diatom_T2_indice.tif` - T2  refractive index reconstruction  
 - `diatom_T2_Absorption.tif` - T2 absorption reconstruction  
 
 ---
