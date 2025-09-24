@@ -97,9 +97,8 @@ python alignment.py
 Performs sub-pixel registration between T1 and T2 views using cross-correlation optimization.
 
 <div align="center">
-  <img src="https://github.com/carlosalbertoch/Dual-View-TDM/issues/alignment.jpg" alt="Alignment Process" width="500"/>
+  <img src="https://raw.githubusercontent.com/carlosalbertoch/Dual-View-TDM/main/assets/alignment.jpg" alt="Alignment Process" width="600"/>
 </div>
-
 ### 2) Volume Fusion
 ```bash
 python fusion.py
