@@ -7,7 +7,7 @@
 This repository contains the complete computational pipeline for **Dual-View Tomographic Diffraction Microscopy**, providing an end-to-end solution for 3D microscopic reconstruction and visualization.
 
 <div align="center">
-  <img src="https://github.com/carlosalbertoch/Dual-View-TDM/issues/setup.pdf" alt="Pipeline Setup" width="600"/>
+  <img src="https://raw.githubusercontent.com/carlosalbertoch/Dual-View-TDM/main/assets/setup.jpg" alt="Pipeline Setup" width="600"/>
 </div>
 ---
 
