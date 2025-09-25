@@ -151,7 +151,7 @@ If this work contributes to your research, please cite:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE]([LICENSE](https://opensource.org/license/MIT)) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://opensource.org/license/MIT) file for details.
 
 ---
 
