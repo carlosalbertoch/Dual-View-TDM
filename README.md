@@ -163,6 +163,6 @@ We extend our gratitude to the **Université de Haute-Alsace (UHA)** and our col
 
 <div align="center">
   <strong>Learn more about tomographic diffraction microscopy</strong><br>
-  <a href="https://your-documentation.com">paper</a> • 
+  <a href="https://www.uha.fr/fr/index.html">paper</a> • 
   <a href="mailto:carlos-alberto.chacon-avila@uha.fr">Contact</a>
 </div>
