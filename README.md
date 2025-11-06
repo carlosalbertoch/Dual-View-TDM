@@ -50,9 +50,9 @@ SimpleITK
 
 ### Dataset Download
 
-Download the required **TIFF stacks** from our data portal:
+Download the required **TIFF stacks** from zenodo data portal:
+**📂 [Dataset Portal](https://zenodo.org/records/17531816)**
 
-**📂 [Dataset Portal](https://uhafr-my.sharepoint.com/:f:/g/personal/nicolas_verrier_uha_fr/Es_dBZ-z0NlLmUesc5MaWdcBQjhFNOvqFaqSHeg6lLqc9A?e=No99f6 )**
 
 Required files:
 - `diatom_T1_indice.tif` - T1 refractive index reconstruction  
